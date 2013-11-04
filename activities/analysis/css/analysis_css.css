@@ -7,28 +7,54 @@
 */
 
 /***************General Styles**************************/
-
 body {
 	font: 100% Helvetica, Arial, sans-serif;
-	line-height: 1.5;
 	width: 960px;
 	margin: 0 auto;
-	border: 15px solid #F50000;
+	border: 10px solid #828373;
 }
 
 h1 {
-	font-size: 1.8em;
+	font-size: 2em;
 	color: #4e998e;
 }
 
 h2 {
-	font-size: 1.25em;
-	color: #828373;
+	font-size: 1.8em;
+	color: #4e998e;
+	border-bottom: 4px ridge #F50000;
 }
 
 h3 {
-	font-size: 0.875em;
-	color: #828373;
+	font-size: 1.25em;
+	color: #4e998e;
 }
 
 /***************Header***********************************/
+#title {
+	text-align: center;
+}
+
+#title a {
+	color: #4e998e;
+}
+
+/******************Intent********************************/
+#intent {
+	margin: 0 20px 10px 20px;
+}
+
+/*******************Comparative Analysis*******************/
+#comp_analysis {
+	margin: 0 20px 10px 20px;
+} 
+
+/*******************Target Audience*************************/
+#audience {
+	margin: 0 20px 10px 20px;
+}
+
+/******************Footer*******************************/
+footer {
+	text-align:center ;
+}
