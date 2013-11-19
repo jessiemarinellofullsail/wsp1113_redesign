@@ -1,66 +1,187 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8"/>
-	<title>LucyStore Redesign</title>
-	<link rel="stylesheet" href="css/main.css">
-</head>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>Lucy Store</title>
+	<meta name="description" content="some description" />
+	<meta name="keywords" content="some, keywords" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+	<link href="css/main.css" rel="stylesheet">
+    
+  </head>
+  
+  <body>
 
-<body>
-<div id="wrapper1">
-<header>
-	<h1>LucyStore</h1><!--Do I need this here? Splice my logo in?-->
-	<div id="subNav">
-	<ul>
-		<li><a href="#">Log In</a><li>
-		<li><a href="#">Register</a><li>
-		<li><a href="#">Wishlist</a><li>
-		<li><a href="#">FAQ</a><li>
-	</ul>
-	</div>
-<!--What do I do about my little section with shopping bag info? I will want it to link to
-my shopping cart page.Link is #of items
-	<div id="bagInfo">
-	</div>-->	
-</div>
-<div id="mainNav">
-<nav>
-	<ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="shop.html">Shop</a></li>
-		<li><a href="episode.html">By Episode</a></li>
-		<li><a href="giftCards.html">Gift Cards</a></li>
-		<li><a href="about.html">About Us</a></li>
-		<li><a href="register.html">Register</a></li>
-		<li><a href="contact.html">Contact</li>
-	</ul>
-</nav>
-</div>
-<!-- <div id="search">
-Splice here?
-</div>-->
+    <header class="clear">
+		<div class="welcome">
+			<div class="clear">
+				<img src="images/logo.png">
+				<ul class="subnav">
+					<li><a href="#">Log In</a></li>
+					<li><a href="#">Register</a></li>
+					<li><a href="#">Wishlist</a></li>
+					<li><a href="#">FAQ</a></li>
+				</ul>
+			</div>
+			<nav class="clear">
+				<ul class="clear">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">By Episode</a></li>
+					<li><a href="#">Gift Cards</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Register</a></li>
+					<li><a href="#">Cart</a></li>
+				</ul>
+			</nav>		
+		</div>
 
-<div id="wrapper2">
-	<div id="preview">
-		<h1>Holiday Decorations</h1>
-		<!--preview button-->
-	<!-- lg_bg.img or splice in?-->
-	<aside>
-		<section id="sale">
-			<h1>On Sale</h1>
-			<!--splice or insert as img?-->
-			<!--include browse button-->
-		</section>
-		<section id="subscribe">
-			<p>Subscribe to our free monthly newsletter and be the first 
-			to hear about our offers.</p>
-			<!--news icon & email field insert-->
-		</section>
+		<div class="customer">
+			<div>
+				<img src="">
+				<p>Welcome YOURNAME</p>
+				<p>3 items</p>
+			</div>
+			<input>Search</input>
+		</div>
 
-<section></section>
-<article></article>
-<aside></aside>
+	</header>
+
+	<section>
+		<article class="clear">
+			<div>float left
+				<h1>Holiday Decorations</h1>
+				<a class="button" href="#">Preview</a>
+			</div>
+
+			<aside>float left
+				<h2>On Sale</h2>
+				<img>
+				<a class="button" href="#">Browse</a>
+				<p>Subscribe to our...</p>
+				<img>
+				<input>Email</input>
+			</aside>
+		</article>
+
+		<article>
+			<h1>New Products</h1>
+			<div class="product">
+				<img>
+				<h2></h2>
+				<p></p>
+				<a class="button" href="#">View</a>
+				<a class="button" href="#">Add to Basket</a>
+			</div>
+			<div class="product">
+				<img>
+				<h2></h2>
+				<p></p>
+				<a class="button" href="#">View</a>
+				<a class="button" href="#">Add to Basket</a>
+			</div>
+			<div class="product">
+				<img>
+				<h2></h2>
+				<p></p>
+				<a class="button" href="#">View</a>
+				<a class="button" href="#">Add to Basket</a>
+			</div>
+			<div class="product">
+				<img>
+				<h2></h2>
+				<p></p>
+				<a class="button" href="#">View</a>
+				<a class="button" href="#">Add to Basket</a>
+			</div>
+
+		</article>
+
+		<article>
+			<h1>Featured Products</h1>
+			<div class="product">
+				<img>
+				<h2></h2>
+				<p></p>
+				<a class="button" href="#">View</a>
+				<a class="button" href="#">Add to Basket</a>
+			</div>
+			<div class="product">
+				<img>
+				<h2></h2>
+				<p></p>
+				<a class="button" href="#">View</a>
+				<a class="button" href="#">Add to Basket</a>
+			</div>
+			<div class="product">
+				<img>
+				<h2></h2>
+				<p></p>
+				<a class="button" href="#">View</a>
+				<a class="button" href="#">Add to Basket</a>
+			</div>
+			<div class="product">
+				<img>
+				<h2></h2>
+				<p></p>
+				<a class="button" href="#">View</a>
+				<a class="button" href="#">Add to Basket</a>
+			</div>
+
+		</article>
+
+	</section>
+
+	<footer>
+		<div>
+			<h2>Information</h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">By Episode</a></li>
+				<li><a href="#">Gift Cards</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Register</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>			
+		</div>
+		<div>
+			<h2>Your Account</h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">By Episode</a></li>
+				<li><a href="#">Gift Cards</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Register</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>			
+		</div>
+		<div>
+			<h2>Contacts</h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">By Episode</a></li>
+				<li><a href="#">Gift Cards</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Register</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>			
+		</div>
+		<div>
+			<h2>Free Delivery</h2>
+			<p>On all orders</p>
+			<img>
+			<img>
+			<img>
+			<img>
+		</div>
+
+	</footer>
 	
-<footer></footer>
-</body>
+	
+  </body>
 </html>
